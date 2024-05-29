@@ -1,0 +1,140 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #ffeddb;
+}
+
+nav {
+  background-color: #edcdbb !important;
+}
+
+.container-wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.container-wrapper h1,
+h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+.team-wrapper,
+.product-wrapper {
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.team-wrapper .card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #e3b7a0;
+  margin: 20px 0;
+  height: 250px;
+  box-shadow: 0 2px 5px #e5b094;
+  text-align: left;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #bf9270;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 2em;
+  color: #050404;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+.team-wrapper .card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #ffeddb;
+  width: 120px;
+  height: 120px;
+}
+
+.bottom {
+  margin-top: 120px;
+}
+
+.info {
+  margin: 20px 10px;
+  color: #050404;
+}
+
+/* products */
+.card-body {
+  background-color: #fbf3ea;
+}
+
+/* home */
+
+.home-wrapper {
+  height: 100vh;
+}
+
+.home-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-details a {
+  color: #913498;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #edcdbb;
+  padding: 20px;
+}
+
+.footer-section h4 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  padding-bottom: 5px;
+}
+
+.footer-section p,
+.footer-section a {
+  padding-bottom: 5px;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0 !important;
+}
